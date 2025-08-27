@@ -1,0 +1,52 @@
+/* 1.RESET CSS */ /* COMENTARIO EM CSS SEMPRE EM MAIUSCULO  */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* box sizing é uma propriedade para não deixarem os elementos sairem da caixa. */
+}
+
+/* 2.ESTILOS GERAIS PARA PAGINA */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5f5;
+    color: #333;
+
+    display: flex;   /* ativa o flexbox na nossa pagina */      
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.recipe-card {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+}
+
+.recipe-image {
+    width: 100%;
+    display: block;
+}
+
+.recipe-content {
+    padding: 25px;
+}
+
+.recipe-title {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.recipe-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 0;
+}
